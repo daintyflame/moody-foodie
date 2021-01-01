@@ -1,19 +1,19 @@
 {
-  "base_url": "https://wutali-nextjs-netlify-blog.netlify.app",
-  "site_title": "Next.js Netlify Blog",
-  "site_description": "Next.js blog template for Netlify",
+  "base_url": "moodyfoodie.cc",
+  "site_title": "Moody Foodie",
+  "site_description": "Delicious fööd content from Sisi Atanasova",
   "site_keywords": [
     {
-      "keyword": "Next.js"
+      "keyword": "food"
     },
     {
-      "keyword": "Netlify"
+      "keyword": "mood"
     },
     {
-      "keyword": "React"
+      "keyword": "sisi"
     }
   ],
   "posts_per_page": 5,
-  "twitter_account": "@my-account",
-  "github_account": "wutali"
+  "twitter_account": "@tinyttaco",
+  "github_account": "daintyflame"
 }
