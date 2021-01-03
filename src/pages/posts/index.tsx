@@ -9,15 +9,16 @@ import { countPosts, listPostContent, PostContent } from "../../lib/posts";
 import { listTags, TagContent } from "../../lib/tags";
 import Head from "next/head";
 
-type Props = {
-  posts: PostContent[];
-  tags: TagContent[];
+export interface PostsProps {
+  posts: PostContent[]
+  tags: TagContent[]
   pagination: {
-    current: number;
-    pages: number;
-  };
-};
-export default function Index({ posts, tags, pagination }: Props) {
+    current: number
+    pages: number
+  }
+}
+
+export default function Index({ posts, tags, pagination }: PostsProps) {
   const url = "/posts";
   const title = "All posts";
   return (
