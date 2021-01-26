@@ -6,7 +6,7 @@ import { Meta } from '../layout/Meta';
 import { Main } from '../templates/Main';
 
 const About = () => (
-  <Main meta={<Meta title="Moody Foodie" description="Games" />}>
+  <Main meta={<Meta title="Moody Foodie" description="Food for every mood" />}>
     <Content>
       <MailingList />
     </Content>
