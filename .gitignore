@@ -1,34 +1,25 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
 # dependencies
 /node_modules
-/.pnp
-.pnp.js
 
 # testing
 /coverage
 
-# next.js
-/.next/
-/out/
+# export
+/dist
 
 # production
 /build
+/dist
+/.next
+/bundles
 
 # misc
 .DS_Store
-.env*
-
-# debug
+Thumbs.db
+next-env.d.ts
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# dist
-/dist
-
-# Local Netlify folder
-.netlify
-
-# mdx
-.mdx-data
+# Dotenv files
+.env*.local
