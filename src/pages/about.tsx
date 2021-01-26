@@ -8,6 +8,7 @@ import { Main } from '../templates/Main';
 const About = () => (
   <Main meta={<Meta title="Moody Foodie" description="Games" />}>
     <Content>
+      <h1>Ribs</h1>
       <MailingList />
     </Content>
   </Main>
